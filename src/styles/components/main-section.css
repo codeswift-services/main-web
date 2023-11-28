@@ -1,0 +1,21 @@
+.main_section {
+  align-items: center;
+  display: flex;
+}
+
+.main_section-text {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.main_section-text-subtitle {
+  font-size: 19px;
+  margin-bottom: 2.2em;
+}
+
+.main_section-text-title {
+  font-size: 45px;
+  margin: 0px;
+}
