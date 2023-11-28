@@ -1,0 +1,39 @@
+@import url('../styles/components/button.css'); 
+
+:root {
+  font-family: sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+body {
+  margin: 0;
+  padding: 0px;
+  min-height: 100vh;
+  min-width: 100%;
+  border: 1px solid red;
+}
+
+.container{
+  max-width: 1250px;
+  margin: auto;
+  padding: 0 1rem;
+  border: 1px solid limegreen;
+}
+
+.container-header {
+  width: 100%;
+  min-height: 79px;
+  background-color: red;
+}
+
+.main_section {
+  align-items: center;
+  display: flex;
+}
