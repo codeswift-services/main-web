@@ -1,5 +1,8 @@
 @import url('../styles/components/button.css'); 
 @import url('../styles/components/main-section.css'); 
+@import url('../styles/components/service-info-section.css'); 
+@import url('../styles/components/contribute-section.css'); 
+@import url('../styles/components/case-studies-section.css'); 
 
 :root {
   font-family: sans-serif;
@@ -14,17 +17,17 @@
 
 
 body {
-  margin: 0;
+  margin: 0px;
   padding: 0px;
   min-height: 100vh;
   min-width: 100%;
-  border: 1px solid red;
 }
 
 .container{
-  max-width: 1250px;
   margin: auto;
-  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
 
 .container-header {

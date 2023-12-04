@@ -1,0 +1,33 @@
+.service-info_section {
+  background-color: #F9F9FF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+  padding: 4rem 0;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.service-info_section_title {
+  margin: 0px;
+  color: #1A202C;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.sevice-info_section_cards {
+  display: flex;
+  gap: 4em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sevice-info_section_card {
+  border-radius: 12px;
+  padding: 39px 16px;
+  width: 100%;
+  max-width: 340px;
+  background-color: #FAFAFA;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
