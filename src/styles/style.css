@@ -3,6 +3,7 @@
 @import url('../styles/components/service-info-section.css'); 
 @import url('../styles/components/contribute-section.css'); 
 @import url('../styles/components/case-studies-section.css'); 
+@import url('../styles/components/header.css');
 
 :root {
   font-family: sans-serif;
@@ -32,5 +33,8 @@ body {
 
 .container-header {
   width: 100%;
-  min-height: 79px;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+
 }

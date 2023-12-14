@@ -1,0 +1,50 @@
+
+.logo, .menu, .contact{
+    flex-grow: 1;
+    
+}
+
+.logo{
+    text-align: center;
+}
+
+.menu{
+    text-align: center;
+    font-size: 18px;
+}
+
+.menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li{
+    display: inline-block;
+    margin: 11px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #4A5568;
+    align-items: center;
+
+}
+
+.search{
+    text-align: right;
+}
+.contact{
+
+    text-align: center;
+    
+}
+button {
+    border-radius: 10px; 
+    padding: 10px 20px; 
+    background: linear-gradient(to right, #6675F7, #57007B);
+    color: #fff; 
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
